@@ -1,0 +1,6 @@
+function rand(x)
+{for(let i=0;i<x;i++)
+    console.log(parseInt( Math.random()*10))
+}rand(10)
+console.log('next one')
+rand(100)
